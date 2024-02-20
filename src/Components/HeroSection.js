@@ -1,8 +1,7 @@
 import { Grid, Typography, Box, Button } from "@mui/material";
-import React from "react";
+import React, { useEffect } from "react";
 import pic from "../images/mypic (2).jpg";
 import github from "./github.png";
-// import "primeicons/primeicons.css";
 import linkedin from "./linkedin.png";
 
 function HeroSection() {
