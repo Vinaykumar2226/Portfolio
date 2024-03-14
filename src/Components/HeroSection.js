@@ -80,8 +80,8 @@ function HeroSection() {
               justifyContent: "center",
             }}
           >
-            <Box sx={{}}>
-              <img src={pic} height={700} className="myimg" />
+            <Box>
+              <img src={pic} height={650} className="myimg" />
             </Box>
           </Grid>
         </Grid>
