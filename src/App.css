@@ -296,6 +296,32 @@ a {
   text-decoration: none;
 }
 
+/* Default styles */
 .myimg {
-  border-radius: 100px;
+  height: 600px; /* Default height */
+  width: auto; /* Default width */
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  .myimg {
+    height: auto; /* Adjust height */
+    width: 100%; /* Set width to fill the container */
+  }
+}
+
+/* Media query for screens between 601px and 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .myimg {
+    height: 700px; /* Adjust height */
+    width: auto; /* Set width to 80% of the container */
+  }
+}
+
+/* Media query for screens larger than 1024px */
+@media (min-width: 1025px) {
+  .myimg {
+    height: 700px; /* Adjust height */
+    width: auto; /* Set width to 70% of the container */
+  }
 }

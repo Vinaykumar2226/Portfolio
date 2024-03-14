@@ -81,7 +81,7 @@ function HeroSection() {
             }}
           >
             <Box>
-              <img src={pic} height={650} className="myimg" />
+              <img src={pic} className="myimg" />
             </Box>
           </Grid>
         </Grid>

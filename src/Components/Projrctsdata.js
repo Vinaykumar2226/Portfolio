@@ -2,7 +2,7 @@ const data = [
   {
     name: "Social Connektt...: A Social Media Website",
     description:
-      "Social Connektt.. is a type of Scoial Media Website which includes new Profile creation with profile picture,Bio,location and the posts.And also you can see others profile and their posts in the website. Technology Stack Used in this project is React js,Node js,Express js,MongoDB,Rest Api's And Material Ui.",
+      "Social Connektt.. is a type of Scoial Media Website which includes new Profile creation with profile picture,Bio,location and the posts.And also you can see others profile and their posts in the website. Technology Stack Used in this project is React js,Node js,Express js,MongoDB,Rest Api's And Material Ui. Note: This website may not be responsive because this project is maily focused on its functionality. ",
     github: "https://github.com/Vinaykumar2226/Social-Media-Frontend",
     liveLink: "https://social-conekktt.onrender.com/",
     year: 2024,

@@ -16,6 +16,7 @@ function Projects() {
               padding: "15px",
               color: "white",
             }}
+            textOverflow={"wrap"}
           >
             Featured Projects
           </Typography>
@@ -26,7 +27,7 @@ function Projects() {
             }}
           >
             Here are some of the selected projects that showcase my passion for
-            front-end development.
+            Web development.
           </Typography>
         </Box>
         <Grid
@@ -48,8 +49,8 @@ function Projects() {
                 sx={{ marginTop: "15px" }}
               >
                 <Box
-                  width="400px"
-                  height="300px"
+                  width="70%"
+                  height="330px"
                   display="flex"
                   justifyItems="center"
                   alignItems="center"
