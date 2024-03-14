@@ -1,6 +1,6 @@
 import { Grid, Typography, Box, Button } from "@mui/material";
 import React, { useEffect } from "react";
-import pic from "../images/mypic (2).jpg";
+import pic from "../images/Layer 2.png";
 import github from "./github.png";
 import linkedin from "./linkedin.png";
 
@@ -81,7 +81,7 @@ function HeroSection() {
             }}
           >
             <Box sx={{}}>
-              <img src={pic} height={600} className="myimg" />
+              <img src={pic} height={700} className="myimg" />
             </Box>
           </Grid>
         </Grid>
